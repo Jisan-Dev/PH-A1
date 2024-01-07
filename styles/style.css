@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Merriweather:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Merriweather:wght@400;900&display=swap');
 /* Reset styles */
 * {
   margin: 0;
@@ -8,7 +8,23 @@
 }
 
 /* Common shared styles */
+.section-subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
 
+.section-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 22px;
+}
 /* header styles */
 header {
   position: relative;
@@ -58,5 +74,21 @@ header .header-info .header-title {
   line-height: 95px;
 }
 /* main styles */
-
+section#sales-promtion {
+  max-width: 803px;
+  margin: 0 auto 120px;
+  text-align: center;
+}
+section#sales-promtion > #sales-heading-percantage {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+section#sales-promtion > .section-title {
+  margin-bottom: 48px;
+}
 /* footer styles */
