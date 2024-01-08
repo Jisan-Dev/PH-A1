@@ -8,6 +8,11 @@
 }
 
 /* Common shared styles */
+.section-withoutBG {
+  width: 82%;
+  max-width: 1320px;
+  margin: 50px auto 120px;
+}
 .section-subtitle {
   color: #f00;
   font-family: Inter;
@@ -217,12 +222,6 @@ section#event-infos > .event-info-container > button {
 }
 
 /* coming soon section */
-section#coming-soon {
-  max-width: 1320px;
-  width: 82%;
-  max-width: 1320px;
-  margin: 50px auto 120px;
-}
 section#coming-soon > .coming-soon-contents-row {
   display: flex;
 }
@@ -250,5 +249,51 @@ section#coming-soon > .coming-soon-contents-row {
 
 .coming-soon-contents-row > .coming-soon-contents-column:nth-child(3) > img {
   margin-top: 43px;
+}
+
+/* Friday sales */
+section#friday-sales > header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+section#friday-sales > header > h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+section#friday-sales > header > h3 {
+  color: #070211;
+}
+section#friday-sales > header span {
+  color: #f00;
+}
+section#friday-sales > header > p {
+  font-weight: 500;
+}
+
+section#friday-sales > main > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -5px;
+}
+section#friday-sales > main > div:nth-child(1) > div:nth-child(1) {
+  width: 100%;
+  position: relative;
+}
+section#friday-sales > main > div:nth-child(1) img[alt='advertising image'] {
+  position: absolute;
+  bottom: -35%;
+  left: 0;
+  height: 130%;
+}
+
+section#friday-sales > main > div:nth-child(1) > div:nth-child(2) {
+  position: relative;
+}
+section#friday-sales > main > div:nth-child(1) > div:nth-child(2) > img[alt='discount image'] {
+  position: absolute;
+  top: 50px;
+  left: -150px;
 }
 /* footer styles */
