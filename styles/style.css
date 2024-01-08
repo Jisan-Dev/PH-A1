@@ -355,6 +355,7 @@ section#newsletter-section > #newsletter-section-container > .newsletter-form-co
   padding: 24px 56px;
   border: none;
   color: white;
+  cursor: pointer;
 }
 /* footer styles */
 footer {
